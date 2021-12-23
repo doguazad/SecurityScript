@@ -1,0 +1,21 @@
+#sagTikMenu {position: absolute; font: 15px arial; margin: 0;
+    padding: 0; box-shadow: 1px 1px 1px #e7e7e7; z-index: 9999;
+     background: #fff; font: 14px arial; border: 1px solid #ccc; 
+     border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; 
+     width: 165px;}
+#sagTikMenu span.aciklama {display: block; padding: 8px; color: #aaa;}
+#sagTikMenu li {position: relative; display: block;}
+#sagTikMenu li a {display: block; text-decoration: none; color: #787878;
+    border-bottom: 1px solid #e1e1e1; padding: 6px 4px;}
+#sagTikMenu li a span.kisayol {float: right; font: 10px consolas; letter-spacing: -1px;
+    margin-right: 5px; margin-top: 3px; color: #bbb}
+#sagTikMenu li a:hover {background: #666; box-shadow: inset 0 15px 15px #777; 
+   color: #fff; border-bottom: 1px solid #656565;}
+#sagTikMenu li a:active {box-shadow: inset 0 4px 5px #555; background: #666;
+    color: #aaa; text-shadow: 1px 0px #555; border-bottom: 1px solid #656565;}
+#sagTikMenu li a.sagTikMenuaktif {box-shadow: inset 0 4px 5px #555; background: #666; 
+   color: #aaa; text-shadow: 1px 0px #555; border-bottom: 1px solid #656565;}
+#sagTikMenu li ul {display: none; position: absolute; font: 13px arial; top: -1px;
+    margin: 0; padding: 0; left: 165px; background: #fff; border: 1px solid #d3d3d3; width: 140px;}
+#sagTikMenu li ul li {position: relative; display: block;}
+#sagTikMenu li ul li a {display: block;}
